@@ -10,9 +10,9 @@ h1{
     font-size: 48px;
     box-shadow: 1px 1px 20px red;
     margin-left: 150px;
-    text-shadow: 1px 1px 20px gold;
     color: black;
     margin-top: -120px;
+    background-color: red;
 }
 a{
     display: flex;
@@ -127,9 +127,8 @@ h2 {
     margin: 0; /* Hamma oraliqni olib tashlash */
     color: inherit; /* Rangi avvalgi holatiga qaytadi */
     text-shadow: none; /* So'roqsiz */
-    text-shadow: 1px 1px 20px yellow;
     padding-bottom: 15px;
-    color: red;
+    color: white;
 }
 
 /* Taymer raqamlari va border stilini saqlash */
@@ -140,7 +139,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    color: #ff6347; /* Raqamlar rangi */
+    color: white; /* Raqamlar rangi */
     border-radius: 15px; /* Taymerning umumiy chegarasi */
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.6); /* Taymer uchun shaffof fon */
@@ -149,7 +148,7 @@ h2 {
 
 #countdown span {
     padding: 20px;
-    color: red; /* Taymer raqamlari uchun fon rangi */
+    color: black; /* Taymer raqamlari uchun fon rangi */
     border-radius: 12px;
     margin: 0 5px;
     font-size: 3rem;
@@ -165,11 +164,12 @@ h2 {
 }
 
 #countdown span:nth-child(odd) {
-    background-color: #ff6347; /* Qizil rangli raqamlar */
+    background-color: red; /* Qizil rangli raqamlar */
 }
 
 #countdown span:nth-child(even) {
-    background-color: #f39c12; /* Sariq rangli raqamlar */
+    background-color: white; /* Sariq rangli raqamlar */
+    border: 2px soldi black;
 }
 
 /* Qor donasining shaklini yaratish */
